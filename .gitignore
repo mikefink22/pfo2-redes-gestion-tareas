@@ -1,22 +1,6 @@
-# Entornos virtuales
 venv/
-.venv/
-env/
-
-# Archivos de caché de Python
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Base de datos local (evita commitear datos de prueba)
+*.pyc
 *.db
 *.sqlite3
-
-# Variables de entorno y secretos
 .env
-
-# Archivos de IDE y sistema operativo
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
